@@ -1,0 +1,68 @@
+.top-nav {
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background-color: var(--color-primary);
+    align-items: center;
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        padding-left: 2rem;
+        align-items: center;
+        font-size: .992rem;
+    }
+
+    &__right {
+        display: flex;
+        padding-right: 2rem;
+        align-items: center;
+    }
+
+    &__campus {
+        text-transform: uppercase;
+        color: var(--color-white);
+        padding: 1rem;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+
+    &__lang {
+        padding: 1rem;
+        color: var(--color-white);
+
+        &-en {
+            font-weight: 600;
+            color: var(--color-white);
+            margin: 0 1rem;
+        }
+
+        &-id {
+            color: var(--color-text-nav);
+            margin: 0 1rem;
+        }
+    }
+
+    &__links {
+        
+    }
+
+    &__link {
+        color: var(--color-text-nav);
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 0 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    &__cta {
+        color: var(--color-white);
+        text-decoration: none;
+        padding: .8rem 2rem;
+        background-color: var(--color-secondary);
+        margin: 0 1.4rem;
+        border-radius: .15em;
+        letter-spacing: .05em;
+        box-shadow: 0 5px 13px rgba(0,0,0,.2);
+    }
+}

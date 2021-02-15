@@ -1,0 +1,56 @@
+.form {
+    &__program {
+        display: flex;
+        height: 22.5rem;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 4.8rem;
+
+        p {
+            font-size: 1.28rem;
+            font-weight: 600;
+            line-height: 2.4rem;
+            color: #fff;
+        }
+    }
+
+    &__input-text {
+        border: none;
+        background-color: transparent;
+        font-size: 1.6rem;
+        font-family: inherit;
+        color: #fff;
+        height: 3.5rem;
+        width: 90%;
+        border-bottom: 1px solid rgba(#fff, .5);
+        padding: 0 2rem;
+        transition: border-bottom .2s ease-in;
+
+        &::-webkit-input-placeholder {
+            color: rgba(#fff, .5);
+            font-style: oblique;
+        }
+
+        &:focus {
+            outline: none;
+            border-bottom: 1px solid #fff;
+        }
+    }
+
+    &__compare-btn {
+        border: none;
+        width: 19rem;
+        padding: 1.2rem 6rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: inherit;
+        letter-spacing: .6px;
+        line-height: 1.8rem;
+        margin-bottom: 2.4rem;
+        box-shadow: 0 24px 33px -9px rgba(238, 17, 68, 0.431);
+        background-image: linear-gradient(135deg, #e94160 0%, #e62a4d 100%);
+        text-transform: uppercase;
+        color: #fff;
+        cursor: pointer;
+    }
+}

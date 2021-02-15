@@ -1,0 +1,37 @@
+:root {
+    --color-primary: #002d77;
+    --color-secondary: #e94160;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-text-nav: rgba(255,255,255,.8);
+    --color-text-1: #ed3349;
+    --color-text-2: #1050b9;
+    --color-text-3: #303b49;
+    --color-text-4: #38414c;
+    --color-text-5: #818a96;
+    --color-blue: #0568bf;
+    --color-blue-light: rgb(16, 80, 185);
+    --color-blue-light-2: #3d74c6;
+    --color-blue-light-3: #76adff;
+    --color-blue-light-4: #769ccc;
+    --color-blue-light-5: #eaf7ff;
+}
+  
+* {
+    margin: 0;
+    padding: 0; }
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit; }
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}

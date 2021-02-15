@@ -1,0 +1,111 @@
+.footer {
+    background-color: #2b3440;
+    padding: 6.4rem 7% 3.2rem 7%;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 25.5rem;
+    }
+
+    &__content-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1.5rem 0 5.44rem;
+        flex: 1;
+    }
+
+    &__link-box {
+        padding: 0 1.5rem;
+    }
+
+    &__link {
+        display: block;
+        font-size: 1.28rem;
+        font-weight: 500;
+        line-height: 1.92rem;
+        text-decoration: none;
+        color: var(--color-white);
+        text-transform: uppercase;
+        padding: 5.12px 0;
+        transition: color .1s ease-in;
+
+        &:hover {
+            color: rgba(#fff, .8);
+        }
+    }
+
+    &__info {
+        width: 36rem;
+        padding: 0 1.5rem;
+        color: var(--color-text-5);
+    }
+
+    &__text {
+        font-family: "Frank Ruhl Libre", serif;
+        font-size: 1.44rem;
+        font-weight: 400;
+        line-height: 2.16rem;
+        margin-bottom: 1.08rem;
+    }
+
+    &__ctc {
+        display: inline-block;
+        font-family: "Frank Ruhl Libre", serif;
+        font-size: 1.44rem;
+        font-weight: 400;
+        line-height: 2.16rem;
+        text-decoration: none;
+        color: var(--color-text-5);
+        transition: color .1s ease-in;
+
+        &:hover {
+            color: rgba(#fff, 0.5);
+        }
+    }
+
+    &__social-box {
+        display: flex;
+        padding-top: .5rem;
+    }
+
+    &__social-link {
+        display: flex;
+        width: 3.3rem;
+        height: 3.3rem;
+        border-radius: 50%;
+        background-color: rgb(129, 138, 150); 
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        transition: background-color .3s ease-in;
+
+        &:hover {
+            background-color: #fff; 
+        }
+    }
+
+    &__social-icon {
+        height: 1.5rem;
+        z-index: 2;
+    }
+
+    &__bottom {
+        border-top: 1px solid rgb(95, 104, 116);
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    &__copyright {
+        display: inline-block;
+        color: #5f6874;
+        font-size: .96rem;
+        font-weight: 400;
+        line-height: 1.44rem;
+        padding-top: 2.56rem;
+        margin: 0 auto;
+    }
+}

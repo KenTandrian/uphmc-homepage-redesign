@@ -1,0 +1,72 @@
+.card {
+    &-subtitle {
+        font-family: "Frank Ruhl Libre", serif;
+        font-weight: 300;
+        font-size: 1.44rem;
+        text-transform: uppercase;
+        letter-spacing: .256px;
+        line-height: 1.536rem;
+        margin: 1rem 0;
+        color: var(--color-blue-light-3);
+    }
+
+    &-title-black {
+        font-size: 1.76rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: .352px;
+        line-height: 2.112rem;
+        margin: 1rem 0;
+        color: var(--color-text-3);
+    }
+
+    &-title-white {
+        font-size: 2.08rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .416px;
+        line-height: 2.496rem;
+        margin: 1rem 0;
+        color: var(--color-white);
+    }
+
+    &-ctablue {
+        color: var(--color-blue-light);
+        position: relative;
+        font-size: 1.28rem;
+        font-weight: 700;
+        letter-spacing: .24px;
+        line-height: 1.92rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    &-ctablue::before {
+        background-color: var(--color-blue-light);
+        height: 2.5px;
+        width: 2.5em;
+        content: "";
+        margin-right: 1rem;
+        display: inline-block;
+    }
+
+    &-ctapink {
+        color: var(--color-text-1);
+        position: relative;
+        font-size: 1.28rem;
+        font-weight: 700;
+        letter-spacing: .32px;
+        line-height: 2.4rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    &-ctapink::before {
+        background-color: var(--color-text-1);
+        height: 2.5px;
+        width: 2.5em;
+        content: "";
+        margin-right: 1rem;
+        display: inline-block;
+    }
+}
