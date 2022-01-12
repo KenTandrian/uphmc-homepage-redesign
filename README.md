@@ -1,7 +1,7 @@
 # UPHMC Homepage Redesign
 [![issues](https://img.shields.io/github/issues/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/issues)
-[![language](https://img.shields.io/github/languages/count/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/search?l=javascript)
-[![top-language](https://img.shields.io/github/languages/top/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/search?l=javascript)
+[![language](https://img.shields.io/github/languages/count/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/search?l=scss)
+[![top-language](https://img.shields.io/github/languages/top/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/search?l=scss)
 [![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/commits/main)
 [![last-commit](https://img.shields.io/github/last-commit/KenTandrian/uphmc-homepage-redesign)](https://github.com/KenTandrian/uphmc-homepage-redesign/commits/main)
 
